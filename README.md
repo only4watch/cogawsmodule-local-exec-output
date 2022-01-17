@@ -4,11 +4,15 @@ download and use it to connect bastion hostfirst
 ssh -i terraform-key.pem ec2-user@bastion public ipaddress 
 ls -ltr /tmp 
 you cant fine .PEM file
-*****IMP INSTRUCTION************
+
+----------IMP INSTRUCTION--------------------------------------
+
 now locate to GIT WORKSPACE
 mkdir -p private-key/terraform-key.pem
 copy terraform-key pair content to private-key/terraform-key.pem
-*****************************************************************
+
+----------------------------------------------------------------
+
 git pull (from this code)
 
 terraform init
